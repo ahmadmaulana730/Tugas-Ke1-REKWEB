@@ -1,0 +1,200 @@
+body {	
+	font-family: georgia;
+	background: #ddd;
+	background-image: url(../../image/body-bg.png);
+	margin: 0px;
+	padding: 0px;
+}
+.logoindex{
+	position: absolute;
+	right: 200px;
+	top: 4px;
+}
+.logoindex a {
+	background-image: url(../../image/logo-index.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 40px;
+	display: block;	
+}
+#submenu {
+	position: relative;
+	width: 740px;
+	height: 30px;
+	margin: 0 auto;
+	top: 54px;
+}
+.search {
+	float: right;
+}
+.searchtext {
+	width: 230px;
+	height: 29px;
+	float: left;
+	padding: 0px 0px 0px 10px;
+	background-image: url(../image/search-bg.png);
+	border: 0px;
+	margin: 0px;
+}
+.searchsubmit {
+	cursor: pointer;
+	float: right;
+	position: relative;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	color: #ccc;
+	width: 40px;
+	height: 29px;
+	text-indent: -9999px;
+	background-image: url(../image/search-btn.png);
+}
+.social {
+	list-style: none;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	top: -7px;
+}
+.social li {
+	display: inline;
+	margin-right: 10px;
+}
+.social li a {
+	text-decoration: none;
+}
+.link li ul {
+	display: none;
+	position: absolute;
+	width: 80px;
+	background-color: #333;
+	list-style: none;
+}
+.link li:hover ul {
+	display: block;
+	padding: 20px;
+}
+.link li:hover ul li {
+	padding-top: 10px;
+}
+.link li:hover ul li a {
+	font-size: 11px;
+}
+#topnav {
+	position: relative;
+	width: 740px;
+	left: 25%;
+}
+.toplogo{
+	position: absolute;
+	left: -48px;
+	top: 4px;
+}
+.toplogo a {
+	background-image: url(../images/logo.png);
+	width: 116px;
+	height: 40px;
+	display: block;
+}
+#topbar {
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+	border-top: 4px solid #377f4b;
+	border-bottom: 40px solid #999;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+}
+.link {
+	position: absolute;
+	list-style: none;
+	padding: 0px;
+	left: 100px;
+	z-index: 2;
+}
+.link li {
+	float: left;
+	margin: 0px;
+	margin-right: 5px;
+}
+
+.link li a {
+	font-weight: bold;
+	font-family: arial;
+	color: #999;
+	margin-right: 20px;
+	text-decoration: none;
+	white-space: 1px;
+	text-transform: uppercase;
+}
+.link .current a {
+	color: white;
+}
+.link li a:hover {
+	color: white;
+}
+#page-wrap {
+	width: 340px;
+	height: 250px;
+	margin: 20px auto 0px auto;
+	border: 8px solid rgba(0,0,0,.2);
+	padding: 20px;
+
+	background: white;
+
+	position: relative;
+
+}
+table {
+	width: 384.5px;
+	height: 250px;
+	margin: 0px auto;
+	margin-left: -22px;
+	margin-top: -22px;
+}
+th {
+	background: #eee;
+	border-bottom: 1px solid #ccc;
+}
+td button {
+	margin: 0px;
+	margin-left: 250px;
+	
+	width: 75px;
+	height: 35px;
+	background: -webkit-linear-gradient(top, WHITE, #dae9ed);
+	border: 1px solid rgba(0,0,0,.3);
+	color: #3b5154;
+	font-weight: bold;
+	border-radius: 20px;
+}
+td input {
+	width: 200px;
+	margin-top: 10px;
+	/*margin-bottom: 5px;*/
+	margin-left: 30px;
+	height: 10px;
+	padding: 10px;
+	border-radius: 1px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 0px 3px #dae9ed;
+}
+#lupaPassword {
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+}
+#lupaPassword a {
+	text-decoration: none;
+	color: #aaa;
+}
+#lupaPassword p {
+	color: #555;
+	text-shadow: 0px 1px 1px #000;
+}
+p {
+	margin: 0 0px 20px 0;
+	padding-right: 50px;
+}

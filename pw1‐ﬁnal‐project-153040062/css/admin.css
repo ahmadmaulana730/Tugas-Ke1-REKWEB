@@ -1,0 +1,144 @@
+body {	
+	font-family: georgia;
+	background: #ddd;
+	background-image: url(../../image/body-bg.png);
+	margin: 0px;
+	padding: 0px;
+}
+.logoindex{
+	position: absolute;
+	right: 200px;
+	top: 4px;
+}
+.logoindex a {
+	background-image: url(../../image/logo-index.png);
+	background-size: 95%;
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 40px;
+	display: block;	
+}
+#submenu {
+	position: relative;
+	width: 740px;
+	height: 30px;
+	margin: 0 auto;
+	top: 54px;
+}
+.search {
+	float: right;
+}
+.searchtext {
+	width: 230px;
+	height: 29px;
+	float: left;
+	padding: 0px 0px 0px 10px;
+	background-image: url(../../image/search-bg.png);
+	border: 0px;
+	margin: 0px;
+}
+.searchsubmit {
+	cursor: pointer;
+	float: right;
+	position: relative;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	color: #ccc;
+	width: 40px;
+	height: 29px;
+	text-indent: -9999px;
+	background-image: url(../assets/images/search-btn.png);
+}
+.social {
+	list-style: none;
+	padding: 0px;
+	position: absolute;
+	right: 0px;
+	top: -7px;
+}
+.social li {
+	display: inline;
+	margin-right: 10px;
+}
+.social li a {
+	text-decoration: none;
+}
+.link li ul {
+	display: none;
+	position: absolute;
+	width: 80px;
+	background-color: #333;
+	list-style: none;
+}
+.link li:hover ul {
+	display: block;
+	padding: 20px;
+}
+.link li:hover ul li {
+	padding-top: 10px;
+}
+.link li:hover ul li a {
+	font-size: 11px;
+}
+#topnav {
+	position: relative;
+	width: 740px;
+	left: 25%;
+}
+.toplogo{
+	position: absolute;
+	left: -48px;
+	top: 4px;
+}
+.toplogo a {
+	background-image: url(../assets/images/logo.png);
+	width: 116px;
+	height: 40px;
+	display: block;
+}
+#topbar {
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+	border-top: 4px solid #377f4b;
+	border-bottom: 40px solid #999;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+}
+.link {
+	position: absolute;
+	list-style: none;
+	padding: 0px;
+	left: 100px;
+	z-index: 2;
+}
+.link li {
+	float: left;
+	margin: 0px;
+	margin-right: 5px;
+}
+
+.link li a {
+	font-weight: bold;
+	font-family: arial;
+	color: #999;
+	margin-right: 20px;
+	text-decoration: none;
+	white-space: 1px;
+	text-transform: uppercase;
+}
+.link .current a {
+	color: white;
+}
+.link li a:hover {
+	color: white;
+}
+#page-wrap {
+	width: 800px;
+	margin: 20px auto;
+	padding-left: 90px;
+	font-weight: bold;
+	font-size: 32px;
+}
